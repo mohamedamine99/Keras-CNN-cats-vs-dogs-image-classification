@@ -6,6 +6,8 @@ The classifier is based on a rather simple CNN architecture and achieved a test 
 * You can find a link to the code output, including history logs and model weights [here](https://drive.google.com/drive/folders/1b2OE2FhPvmCwJOBWXGumKKF8jOYWiuK9?usp=share_link) .
 
 ## Model performance:
+### Validation accuracy and loss
+
 <div align="center">  
 <table style="margin: 0 auto; border-style: none; width:100%">
   <tr>
@@ -14,28 +16,38 @@ The classifier is based on a rather simple CNN architecture and achieved a test 
   </tr>
 </table>
 </div>
+
+### Confusion matrix
+
+<div align="center">  
+<table style="margin: 0 auto; border-style: none; width:100%">
+  <tr>
+    <td><img src="https://github.com/mohamedamine99/Keras-CNN-cats-vs-dogs-image-classification/blob/main/confusion%20matrix.PNG"></td>
+  </tr>
+</table>
+</div>
  
  
  ## Model predictions visualized :
-
+### Predicting dog images
 <p align="center">Predicting Dog images</p>
 
 
 <div align="center">  
 <table style="margin: 0 auto; border-style: none; width:100%">
   <tr>
-    <td><img src="https://github.com/mohamedamine99/Keras-CNN-cats-vs-dogs-image-classification/blob/main/cat%20vs%20dogs%20dogs%20test%20cnn.PNG"></td>
+    <td><img src="https://github.com/mohamedamine99/Keras-CNN-cats-vs-dogs-image-classification/blob/main/dog%20predictions.PNG"></td>
   </tr>
 </table>
 </div>
 
-
+### Predicting cat images
 <p align="center">Predicting Cat images</p>
 
 <div align="center">  
 <table style="margin: 0 auto; border-style: none; width:100%">
   <tr>
-    <td><img src="https://github.com/mohamedamine99/Keras-CNN-cats-vs-dogs-image-classification/blob/main/cat%20vs%20dogs%20cats%20test%20cnn.PNG"></td>
+    <td><img src="https://github.com/mohamedamine99/Keras-CNN-cats-vs-dogs-image-classification/blob/main/cat%20predictions.PNG"></td>
   </tr>
 </table>
 </div>
